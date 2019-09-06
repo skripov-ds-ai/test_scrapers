@@ -7,7 +7,6 @@
 from pandas.io.json import json_normalize
 
 
-
 class AjaxPaginationPipeline(object):
     items = []
 

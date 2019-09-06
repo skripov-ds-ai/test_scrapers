@@ -15,11 +15,8 @@ from selenium.webdriver.common.keys import Keys
 
 class EcommerceAjaxPaginationSpider(scrapy.Spider):
     name = 'ecommerce_ajax_pagination_spider'
-    # allowed_domains = ['https://www.webscraper.io/test-sites/e-commerce/ajax/']
     start_urls = [
-        # 'http://https://www.webscraper.io/test-sites/e-commerce/ajax/',
         "https://www.webscraper.io/test-sites/e-commerce/ajax/product/251",
-        # 'https://www.webscraper.io/test-sites/e-commerce/ajax/computers/laptops'
     ]
 
     def __init__(self):
