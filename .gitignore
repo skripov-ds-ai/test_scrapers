@@ -188,3 +188,4 @@ venv.bak/
 # mypy
 .mypy_cache/
 /ajax_pagination/ajax_pagination/spiders/chromedriver
+/simple_ecommerce/*.txt
